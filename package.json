@@ -11,7 +11,27 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "cache-manager": "^3.6.3",
     "express": "^5.2.1"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "async": "^3.2.6",
+    "cache-manager": "^7.2.8",
+    "es6-promise": "^4.2.8",
+    "mocha": "^11.7.5",
+    "optimist": "^0.6.1",
+    "sinon": "^21.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dik27sha/cache-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dik27sha/cache-system/issues"
+  },
+  "homepage": "https://github.com/dik27sha/cache-system#readme"
 }
